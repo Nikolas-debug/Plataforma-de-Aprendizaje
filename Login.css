@@ -1,0 +1,61 @@
+
+/*tags*/
+
+body{
+    min-width: 1440px;
+    height: 1024px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Class*/
+
+.input_formulario{
+    height: 20%;
+    width: 80%;
+    font-size: 15px;
+    color: rgb(0, 0, 0, 0.8);
+    background-color: none;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+.imagen_c{
+    height: 700px;
+    width: 1200px;
+}
+
+
+
+
+
+/*Ids*/
+#formulario{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    justify-content: space-evenly;
+}
+
+#logo{
+    width: 125px;
+    height: 125px;
+    border-radius: 60px;
+}
+
+#formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 45%;
+    width: 65%;
+    background-color: red;
+}
