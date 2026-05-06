@@ -3,7 +3,7 @@
 
 body{
     min-width: 1440px;
-    height: 1024px;
+    min-height: 100vh;
     align-items: center;
     justify-content: space-evenly;
     display: flex;
@@ -13,41 +13,53 @@ body{
 
 /*Class*/
 
+.carousel,
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
 .input_formulario{
     height: 20%;
     width: 80%;
     font-size: 15px;
     color: rgb(0, 0, 0, 0.8);
-    background-color: none;
+    background-color: white;
     border: 1px solid black;
     text-align: center;
-    
+    border-radius: 8px;
 }
 
 .imagen_c{
-    height: 700px;
-    width: 1200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-
-
-
-
 /*Ids*/
+
+#contenedor_carrusel{ 
+    width: 1000px;
+    height: 600px;
+}
+
 #formulario{
     width: 400px;
     height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aqua;
-    justify-content: space-evenly;
+    border: 2px rgb(39, 143, 39) solid;
+    border-radius: 15px;
+    background-color: rgb(145, 255, 145);
 }
 
 #logo{
-    width: 125px;
-    height: 125px;
-    border-radius: 60px;
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    border: black 3px solid;
+    margin-top: 100px;
 }
 
 #formulario form{
@@ -57,5 +69,4 @@ body{
     justify-content: space-evenly;
     height: 45%;
     width: 65%;
-    background-color: red;
 }
